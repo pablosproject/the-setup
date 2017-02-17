@@ -44,8 +44,8 @@ class CompleteInterview: Interview {
         super.mapping(map: map)
 
         contents <- map["contents"]
-        hardware <- map["hardware"]
-        software <- map["software"]
+        hardware <- map["gear.hardware"]
+        software <- map["gear.software"]
     }
 }
 
