@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc86bd8e-84ab-4efe-bc7d-08dc23564eda" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TheSetup/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/TheSetup/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TheSetup/Info.plist" afterPath="$PROJECT_DIR$/TheSetup/Supporting Files/Info.plist" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TheSetup/ViewController.swift" afterPath="$PROJECT_DIR$/TheSetup/Controllers/ViewController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/paolo.xcuserdatad/xcschemes/Pods-TheSetup.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/paolo.xcuserdatad/xcschemes/Pods-TheSetup.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/paolo.xcuserdatad/xcschemes/Pods-TheSetupTests.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/paolo.xcuserdatad/xcschemes/Pods-TheSetupTests.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/paolo.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/paolo.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheSetup.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/TheSetup.xcodeproj/project.pbxproj" />
-    </list>
+    <list default="true" id="dc86bd8e-84ab-4efe-bc7d-08dc23564eda" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,12 +123,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487347940356</updated>
-      <workItem from="1487347942038" duration="101000" />
+      <workItem from="1487347942038" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101000" />
+    <option name="totallyTimeSpent" value="119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2555" height="1058" extended-state="6" />

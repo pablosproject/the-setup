@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		525E92311E574EE700E40CD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E92301E574EE700E40CD4 /* AppDelegate.swift */; };
 		525E92461E574EE700E40CD4 /* TheSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E92451E574EE700E40CD4 /* TheSetupTests.swift */; };
+		525E92511E5758F400E40CD4 /* Interview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E92501E5758F400E40CD4 /* Interview.swift */; };
+		525E92531E575D7A00E40CD4 /* Gear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E92521E575D7A00E40CD4 /* Gear.swift */; };
 		6580E102027D722C17B806D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6580E6074357AB2FD03453CE /* LaunchScreen.storyboard */; };
 		6580E3343B8181B5B7F53FB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580E9BE1892852C14272EBF /* ViewController.swift */; };
 		6580E40D0ABF1C22507500C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6580EED8788434943D8DADAD /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 		525E92411E574EE700E40CD4 /* TheSetupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSetupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		525E92451E574EE700E40CD4 /* TheSetupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSetupTests.swift; sourceTree = "<group>"; };
 		525E92471E574EE700E40CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525E92501E5758F400E40CD4 /* Interview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interview.swift; sourceTree = "<group>"; };
+		525E92521E575D7A00E40CD4 /* Gear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gear.swift; sourceTree = "<group>"; };
 		6580E2E37015A3BE622E04D5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		6580E58432E6152422C17CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6580E9BE1892852C14272EBF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +158,8 @@
 		6580ED66A7FFDB2AEB21ADB0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				525E92501E5758F400E40CD4 /* Interview.swift */,
+				525E92521E575D7A00E40CD4 /* Gear.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -380,8 +386,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525E92531E575D7A00E40CD4 /* Gear.swift in Sources */,
 				525E92311E574EE700E40CD4 /* AppDelegate.swift in Sources */,
 				6580E3343B8181B5B7F53FB6 /* ViewController.swift in Sources */,
+				525E92511E5758F400E40CD4 /* Interview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,7 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7833YD8CU4;
-				INFOPLIST_FILE = TheSetup/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TheSetup/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pablosproject.TheSetup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -536,7 +544,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7833YD8CU4;
-				INFOPLIST_FILE = TheSetup/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TheSetup/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pablosproject.TheSetup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -595,6 +603,7 @@
 				525E924C1E574EE700E40CD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525E924D1E574EE700E40CD4 /* Build configuration list for PBXNativeTarget "TheSetupTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +612,7 @@
 				525E924F1E574EE700E40CD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
