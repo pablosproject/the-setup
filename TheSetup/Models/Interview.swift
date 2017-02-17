@@ -9,43 +9,43 @@
 import Foundation
 import ObjectMapper
 
-class Interview:Mappable {
-	public private(set) var slug : String?
-	public private(set) var name : String?
-	public private(set) var url : URL?
-	public private(set) var summary : String?
-	public private(set) var date : Date?
-	public private(set) var categories: [String]?
-	
-	required init?(map: Map){
-		
-	}
-	
-	func mapping(map: Map) {
-		slug <- map["slug"]
-		name <- map["name"]
-		url <- map["url"]
-		summary <- map["summary"]
-		date <- map["date"]
-		categories <- map["categories"]
-	}
+class Interview: Mappable {
+    public private(set) var slug: String?
+    public private(set) var name: String?
+    public private(set) var url: URL?
+    public private(set) var summary: String?
+    public private(set) var date: TimeInterval?
+    public private(set) var categories: [String]?
+
+    required init?(map: Map) {
+
+    }
+
+    func mapping(map: Map) {
+        slug <- map["slug"]
+        name <- map["name"]
+        url <- (map["url"],URLTransform())
+        summary <- map["summary"]
+        date <- map["date"]
+        categories <- map["categories"]
+    }
 }
 
-class CompleteInterview : Interview {
-	public private(set) var contents : String?
-	public private(set) var hardware : [Gear]?
-	public private(set) var software : [Gear]?
-	
-	required init?(map: Map){
-		super.init(map: map)
-	}
-	
-	override func mapping(map: Map) {
-		super.mapping(map: map)
-		
-		contents <- map["contents"]
-		hardware <- map["hardware"]
-		software <- map["software"]
-	}
+class CompleteInterview: Interview {
+    public private(set) var contents: String?
+    public private(set) var hardware: [Gear]?
+    public private(set) var software: [Gear]?
+
+    required init?(map: Map) {
+        super.init(map: map)
+    }
+
+    override func mapping(map: Map) {
+        super.mapping(map: map)
+
+        contents <- map["contents"]
+        hardware <- map["hardware"]
+        software <- map["software"]
+    }
 }
 
