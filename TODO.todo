@@ -1,0 +1,22 @@
+Models:
+  ☐ Interview List
+  ☐ Interview Complete
+  ☐ Gear - List
+  ☐ Gear - Complete (With related interview)
+
+API Needed:
+  ☐ Interview List
+  ☐ Interview Detail
+  ☐ Category List @low
+  ☐ Category detail @low
+
+View Controllers:
+  ☐ Interview List
+  ☐ Interview Detail
+  ☐ Category List
+  ☐ Gear List
+  ☐ About
+
+Extra features:
+  ☐ Search@low
+  ☐ Discover by category@low
