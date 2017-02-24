@@ -35,7 +35,6 @@ class InterviewListViewController: UITableViewController {
     }
 
 	//MARK: UITableViewDataSource methods
-	
 	override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		return interviews.count
 	}
@@ -52,8 +51,11 @@ class InterviewListViewController: UITableViewController {
 	//MARK: Storyboard management
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 		if segue.identifier == "interviewList.to.InterviewDetail" {
-//			let interviewDetailController = segue.destination as 
-			
+			let interviewDetailController = segue.destination as! InterviewDetailController
+			if let selectedIndex = self.tableView.indexPathForSelectedRow
+			{
+				interviewDetailController.setup(interview:interviews[(selectedIndex.row)])
+			}
 		}
 	}
 	

@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1A7325E7CE356128F0DD667E5F9B825C'
-               BlueprintName = 'SwiftyMarkdown'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SwiftyMarkdown.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1A7325E7CE356128F0DD667E5F9B825C"
+               BlueprintName = "SwiftyMarkdown"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "SwiftyMarkdown.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

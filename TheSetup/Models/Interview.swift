@@ -9,6 +9,12 @@
 import Foundation
 import ObjectMapper
 
+extension URL {
+	public static func interviewURL(slug: String) -> URL? {
+		return URL(string:"https://usesthis.com/images/interviews/\(slug)/portrait.jpg")
+	}
+}
+
 class Interview: Mappable {
     public private(set) var slug: String?
     public private(set) var name: String?

@@ -10,6 +10,7 @@
 		5200C4EB1E60903D00D1CFDE /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200C4EA1E60903D00D1CFDE /* ServiceProvider.swift */; };
 		5200C4EE1E6093DF00D1CFDE /* InterviewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200C4ED1E6093DF00D1CFDE /* InterviewListViewController.swift */; };
 		5200C4F01E60943B00D1CFDE /* InterviewListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200C4EF1E60943B00D1CFDE /* InterviewListCell.swift */; };
+		5200C4F31E60A6CE00D1CFDE /* InterviewDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200C4F21E60A6CD00D1CFDE /* InterviewDetailController.swift */; };
 		525E92311E574EE700E40CD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E92301E574EE700E40CD4 /* AppDelegate.swift */; };
 		525E92511E5758F400E40CD4 /* Interview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E92501E5758F400E40CD4 /* Interview.swift */; };
 		525E92531E575D7A00E40CD4 /* Gear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E92521E575D7A00E40CD4 /* Gear.swift */; };
@@ -43,6 +44,7 @@
 		5200C4EA1E60903D00D1CFDE /* ServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceProvider.swift; path = ServiceProvider/ServiceProvider.swift; sourceTree = "<group>"; };
 		5200C4ED1E6093DF00D1CFDE /* InterviewListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterviewListViewController.swift; path = "Interview List/InterviewListViewController.swift"; sourceTree = "<group>"; };
 		5200C4EF1E60943B00D1CFDE /* InterviewListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterviewListCell.swift; path = "Interview List/InterviewListCell.swift"; sourceTree = "<group>"; };
+		5200C4F21E60A6CD00D1CFDE /* InterviewDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterviewDetailController.swift; path = "Interview Detail/InterviewDetailController.swift"; sourceTree = "<group>"; };
 		525E922D1E574EE700E40CD4 /* TheSetup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSetup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525E92301E574EE700E40CD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		525E92411E574EE700E40CD4 /* TheSetupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSetupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,14 @@
 			name = "Interview List";
 			sourceTree = "<group>";
 		};
+		5200C4F11E60A69B00D1CFDE /* Interview Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5200C4F21E60A6CD00D1CFDE /* InterviewDetailController.swift */,
+			);
+			name = "Interview Detail";
+			sourceTree = "<group>";
+		};
 		525E92241E574EE700E40CD4 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +170,7 @@
 		6580E59CE1E0E73838CED9CE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5200C4F11E60A69B00D1CFDE /* Interview Detail */,
 				5200C4EC1E6093BB00D1CFDE /* Interview List */,
 			);
 			path = Controllers;
@@ -428,6 +439,7 @@
 				525E92531E575D7A00E40CD4 /* Gear.swift in Sources */,
 				525E92311E574EE700E40CD4 /* AppDelegate.swift in Sources */,
 				5200C4F01E60943B00D1CFDE /* InterviewListCell.swift in Sources */,
+				5200C4F31E60A6CE00D1CFDE /* InterviewDetailController.swift in Sources */,
 				525E92511E5758F400E40CD4 /* Interview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

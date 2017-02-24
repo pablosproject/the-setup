@@ -4,88 +4,68 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>APESuperHUD.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<false />
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>AlamofireObjectMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<false />
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>ObjectMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<false />
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>Pods-TheSetup.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<false />
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>Pods-TheSetupTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SDWebImage.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SwiftyMarkdown.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
+			<false />
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1A7325E7CE356128F0DD667E5F9B825C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>2F5622F3B18DF497981AB58C6D1FC72F</key>
 		<dict>
 			<key>primary</key>
-			<true/>
-		</dict>
-		<key>386FAAC55AA215BD66F84664AE47D0FD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3FF6708C7E7C57B5EAF448C5943449D6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>643B0B67C47C48DB3B9C34BB3039AE0E</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>9502FB01641FBABB78522037E882757B</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
-		<key>99478865AF8D9379B8EBF7323E41A4F1</key>
+		<key>BCA6119DD2C66CF784EE821B0425CBE6</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 	</dict>
 </dict>

@@ -35,7 +35,7 @@ class InterviewListCell: UITableViewCell {
 		}
 		
 		if	let slug = interview.slug {
-			let imageURL = URL(string:"https://usesthis.com/images/interviews/\(slug)/portrait.jpg")
+			let imageURL = URL.interviewURL(slug: slug)
 			interviewImage.sd_setImage(with: imageURL)
 		}
 	}
