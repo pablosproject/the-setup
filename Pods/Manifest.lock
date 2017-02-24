@@ -1,19 +1,30 @@
 PODS:
   - Alamofire (4.3.0)
-  - AlamofireObjectMapper (4.0.2):
+  - AlamofireObjectMapper (4.1.0):
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 2.0)
+  - APESuperHUD (1.1.2)
   - ObjectMapper (2.2.3)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SwiftyMarkdown (0.3.2)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
   - AlamofireObjectMapper (~> 4.0)
+  - APESuperHUD (~> 1.1.2)
+  - SDWebImage (~> 4.0.0)
+  - SwiftyMarkdown (~> 0.3)
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
-  AlamofireObjectMapper: 94923a4320bbe52c1d0d462093277a9d6a755a78
+  AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  APESuperHUD: 9c7ea17cea21b4a9212f1c43810b0c8b9ee585a6
   ObjectMapper: d3b3de11267f5d971f390eb8d63dd509116a4329
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SwiftyMarkdown: 59cea5af966f7fb0ed99dfc29174d82ba1534cfd
 
-PODFILE CHECKSUM: 673f6edb30e389c5dd4cb43d8f17ed556770154a
+PODFILE CHECKSUM: d87fa00414b8119331769bce08b8b53f9e44fb9e
 
 COCOAPODS: 1.2.0.beta.3

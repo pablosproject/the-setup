@@ -1,18 +1,22 @@
 Models:
-  ☐ Interview List
-  ☐ Interview Complete
-  ☐ Gear - List
-  ☐ Gear - Complete (With related interview)
+  ✔ Interview List @done(2017-02-24 18:31) @project(Models)
+  ✔ Interview Complete @done(2017-02-24 18:31) @project(Models)
+  ✔ Gear - List @done(2017-02-24 18:31) @project(Models)
+  ✔ Gear - Complete (With related interview) @done(2017-02-24 18:31) @project(Models)
 
 API Needed:
-  ☐ Interview List
-  ☐ Interview Detail
+  ✔ Interview List @done(2017-02-24 18:31) @project(API Needed)
+  ✔ Interview Detail @done(2017-02-24 18:31) @project(API Needed)
   ☐ Category List @low
   ☐ Category detail @low
 
 View Controllers:
   ☐ Interview List
+    ✔ Basic implementation  @done(2017-02-24 18:31) @project(View Controllers)
+    ☐ Fine design tuning
   ☐ Interview Detail
+    ☐ Inteview details
+    ☐ Markdown processing
   ☐ Category List
   ☐ Gear List
   ☐ About

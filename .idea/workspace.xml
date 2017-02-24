@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc86bd8e-84ab-4efe-bc7d-08dc23564eda" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TheSetup/Controllers/ViewController.swift" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheSetup.xcworkspace/xcuserdata/paolo.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/TheSetup.xcworkspace/xcuserdata/paolo.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheSetup.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/TheSetup.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheSetup/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/TheSetup/Base.lproj/Main.storyboard" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,36 +23,18 @@
     <favorites_list name="TheSetup" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="NetworkIntegrationTests.swift" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/TheSetupTests/NetworkIntegrationTests.swift">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="159">
-                  <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="NetworkService.swift" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/TheSetup/Core/Network/NetworkService.swift">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="615">
-                  <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="InterviewListViewController.swift" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TheSetup/Controllers/Interview List/InterviewListViewController.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,6 +46,7 @@
         <option value="$PROJECT_DIR$/TheSetup/Core/Network/NetworkService.swift" />
         <option value="$PROJECT_DIR$/TheSetup/Models/Interview.swift" />
         <option value="$PROJECT_DIR$/TheSetupTests/NetworkIntegrationTests.swift" />
+        <option value="$PROJECT_DIR$/TheSetup/Controllers/Interview List/InterviewListViewController.swift" />
       </list>
     </option>
   </component>
@@ -71,14 +58,14 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1278" />
-    <option name="height" value="1058" />
+    <option name="width" value="1676" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -91,7 +78,59 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheSetup" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheSetup" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheSetup" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheSetup" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheSetup" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interview List" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
@@ -162,11 +201,12 @@
       <updated>1487347940356</updated>
       <workItem from="1487347942038" duration="3140000" />
       <workItem from="1487579763562" duration="212000" />
+      <workItem from="1487952111767" duration="499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3352000" />
+    <option name="totallyTimeSpent" value="3851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -178,11 +218,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1278" height="1058" extended-state="0" />
+    <frame x="0" y="22" width="1676" height="1028" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.123914756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12386707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -214,9 +254,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TheSetupTests/NetworkIntegrationTests.swift">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding>
+            <marker date="1487361112000" expanded="true" signature="0:157" ph="//..." />
+            <marker date="1487361112000" expanded="true" signature="216:4574" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="245:275" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="306:339" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="414:807" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="851:1874" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="1915:2308" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="2351:2761" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="2798:3515" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="3554:4572" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheSetup/Core/Network/NetworkService.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheSetupTests/NetworkIntegrationTests.swift">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1665">
           <caret line="111" column="38" lean-forward="true" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
-          <folding />
+          <folding>
+            <marker date="1487361112000" expanded="true" signature="0:157" ph="//..." />
+            <marker date="1487361112000" expanded="true" signature="216:4574" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="245:275" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="306:339" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="414:807" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="851:1874" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="1915:2308" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="2351:2761" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="2798:3515" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="3554:4572" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -237,16 +315,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TheSetup/Core/Network/NetworkService.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+        <state relative-caret-position="315">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TheSetupTests/NetworkIntegrationTests.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="1425">
+          <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+          <folding>
+            <marker date="1487361112000" expanded="true" signature="0:157" ph="//..." />
+            <marker date="1487361112000" expanded="true" signature="216:4574" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="245:275" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="306:339" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="414:807" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="851:1874" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="1915:2308" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="2351:2761" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="2798:3515" ph="{...}" />
+            <marker date="1487361112000" expanded="true" signature="3554:4572" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheSetup/Controllers/Interview List/InterviewListViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding />
         </state>
       </provider>
