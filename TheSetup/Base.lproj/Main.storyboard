@@ -13,7 +13,7 @@
         <scene sceneID="Dda-AY-oOH">
             <objects>
                 <navigationController id="sOv-z4-gHO" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="r1j-cM-dKp">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="r1j-cM-dKp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -42,9 +42,9 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Iwl-cA-Yd8" userLabel="Interview Image">
-                                            <rect key="frame" x="15" y="8" width="345" height="300"/>
+                                            <rect key="frame" x="15" y="8" width="345" height="250"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="300" id="CK2-Jh-bOo"/>
+                                                <constraint firstAttribute="height" constant="250" id="CK2-Jh-bOo"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7X-Pl-ne0" userLabel="Subtitle Label">
@@ -59,7 +59,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txY-xW-CcN" userLabel="Title Label">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txY-xW-CcN" userLabel="Title Label">
                                             <rect key="frame" x="15" y="333" width="345" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -75,10 +75,10 @@
                                         <constraint firstAttribute="trailing" secondItem="Iwl-cA-Yd8" secondAttribute="trailing" constant="15" id="Ron-jW-qf9"/>
                                         <constraint firstItem="IQN-H2-NXM" firstAttribute="leading" secondItem="r7X-Pl-ne0" secondAttribute="leading" id="Wih-n1-zM6"/>
                                         <constraint firstItem="r7X-Pl-ne0" firstAttribute="trailing" secondItem="txY-xW-CcN" secondAttribute="trailing" id="faz-bw-f7M"/>
-                                        <constraint firstAttribute="bottom" secondItem="IQN-H2-NXM" secondAttribute="bottom" constant="15" id="gmZ-Xn-Dil"/>
+                                        <constraint firstAttribute="bottom" secondItem="IQN-H2-NXM" secondAttribute="bottom" constant="30" id="gmZ-Xn-Dil"/>
                                         <constraint firstItem="IQN-H2-NXM" firstAttribute="trailing" secondItem="r7X-Pl-ne0" secondAttribute="trailing" id="nMD-lU-Vdm"/>
                                         <constraint firstItem="Iwl-cA-Yd8" firstAttribute="top" secondItem="cU9-ba-sUK" secondAttribute="top" constant="8" id="oym-Ew-OP3"/>
-                                        <constraint firstItem="txY-xW-CcN" firstAttribute="top" secondItem="Iwl-cA-Yd8" secondAttribute="bottom" constant="25" id="qKt-Oi-423"/>
+                                        <constraint firstItem="txY-xW-CcN" firstAttribute="top" secondItem="Iwl-cA-Yd8" secondAttribute="bottom" constant="15" id="qKt-Oi-423"/>
                                         <constraint firstItem="txY-xW-CcN" firstAttribute="trailing" secondItem="Iwl-cA-Yd8" secondAttribute="trailing" id="rau-hg-oUA"/>
                                     </constraints>
                                 </tableViewCellContentView>
