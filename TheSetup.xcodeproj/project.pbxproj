@@ -22,6 +22,7 @@
 		6580E102027D722C17B806D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6580E6074357AB2FD03453CE /* LaunchScreen.storyboard */; };
 		6580E40D0ABF1C22507500C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6580EED8788434943D8DADAD /* Main.storyboard */; };
 		6580E5B530A7368527261F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6580E58432E6152422C17CA9 /* Assets.xcassets */; };
+		6580E84E828BE393C69769BB /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580E4A100A17A5EF6EE9A56 /* Style.swift */; };
 		855CF1FCCE11AA48B96F3E19 /* Pods_TheSetupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321BA37F53E947FA72178760 /* Pods_TheSetupTests.framework */; };
 		8F5CACF9C2C093E5A393ED68 /* Pods_TheSetup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF78FB8BA2CDA50DEA5F8B /* Pods_TheSetup.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		525E92541E5760C400E40CD4 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		525E92561E57657D00E40CD4 /* NetworkIntegrationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkIntegrationTests.swift; sourceTree = "<group>"; };
 		6580E2E37015A3BE622E04D5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6580E4A100A17A5EF6EE9A56 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		6580E58432E6152422C17CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6580EB6123D3EB68CA091586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TheSetup/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		6580ED7992CADD105900B5A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TheSetup/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
@@ -146,6 +148,7 @@
 				6580E5C7BB3B8213FE6F1E67 /* Resources */,
 				6580E84F23AE64B4FF579CB2 /* Core */,
 				6580E38AC80DF4EFBF1DAFF1 /* Supporting Files */,
+				6580E877003EBCE5F9671751 /* Style */,
 			);
 			path = TheSetup;
 			sourceTree = "<group>";
@@ -192,6 +195,14 @@
 				6580EDD8F6FB1484CEE1A2DB /* Network */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		6580E877003EBCE5F9671751 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6580E4A100A17A5EF6EE9A56 /* Style.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 		6580ED66A7FFDB2AEB21ADB0 /* Models */ = {
@@ -441,6 +452,7 @@
 				5200C4F01E60943B00D1CFDE /* InterviewListCell.swift in Sources */,
 				5200C4F31E60A6CE00D1CFDE /* InterviewDetailController.swift in Sources */,
 				525E92511E5758F400E40CD4 /* Interview.swift in Sources */,
+				6580E84E828BE393C69769BB /* Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

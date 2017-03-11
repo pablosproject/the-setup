@@ -17,12 +17,15 @@ class InterviewListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		
-		
+		self.tableView.estimatedRowHeight = 400
+		self.tableView.rowHeight = UITableViewAutomaticDimension
     }
 	
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
 		
+		
+		//TODO: put the loader only if the loading takes more than 1 sec
 		APESuperHUD.showOrUpdateHUD(loadingIndicator: .standard, messages: [], presentingView: self.view)
 		
 		NetworkService.interviewList { APIInterviews in

@@ -20,7 +20,13 @@ class InterviewListCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
 		
-		//TODO: setup fonts
+		self.titleLabel.font = TextStyle.interviewListTitle.font()
+		self.descriptionLabel.font = TextStyle.interviewListDetail.font()
+		self.dateLabel.font = TextStyle.interviewListDate.font()
+
+		self.titleLabel.textColor = TextStyle.interviewListTitle.color()
+		self.descriptionLabel.textColor = TextStyle.interviewListDetail.color()
+		self.dateLabel.textColor = TextStyle.interviewListDate.color()
     }
 	
 	override func prepareForReuse() {
