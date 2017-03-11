@@ -14,6 +14,7 @@ class InterviewDetailController: UITableViewController, UITextViewDelegate {
 
 	var interview : Interview?
 	var completeInterview : CompleteInterview?
+	let calculationView : UITextView = UITextView()
 	
 	@IBOutlet weak var interviewImage: UIImageView!
 	@IBOutlet weak var contentTextView: UITextView!
@@ -22,7 +23,7 @@ class InterviewDetailController: UITableViewController, UITextViewDelegate {
         super.viewDidLoad()
 		
 		self.contentTextView.delegate = self
-		self.contentTextView.textContainer.heightTracksTextView = true;
+		self.contentTextView.alpha = 0
 		
 		self.tableView.estimatedRowHeight = 70
 		self.tableView.rowHeight = UITableViewAutomaticDimension
@@ -43,6 +44,16 @@ class InterviewDetailController: UITableViewController, UITextViewDelegate {
 		}
 	}
 	
+	//MARK: UITableViewDelegate
+	override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+		if (indexPath.row == 1) {
+			calculationView.attributedText = contentTextView.attributedText
+			let size = calculationView.sizeThatFits(CGSize(width: contentTextView.frame.width, height: CGFloat(FLT_MAX)))
+			return size.height
+		}
+		return UITableViewAutomaticDimension
+	}
+	
 	//MARK: Public functions
 	public func setup(interview: Interview) {
 		self.interview = interview
@@ -57,6 +68,11 @@ class InterviewDetailController: UITableViewController, UITextViewDelegate {
 			
 			self.contentTextView.attributedText = attributedString
 			self.tableView.reloadData()
+			//Animate appearence of content text view
+			UIView.animate(withDuration: 0.25, animations: { 
+				self.contentTextView.alpha = 1
+			})
+			
 		}
 	}
 	

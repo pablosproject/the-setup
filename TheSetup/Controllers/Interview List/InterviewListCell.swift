@@ -23,6 +23,10 @@ class InterviewListCell: UITableViewCell {
 		//TODO: setup fonts
     }
 	
+	override func prepareForReuse() {
+		interviewImage.sd_cancelCurrentImageLoad()
+	}
+	
 	func setup(_ interview: Interview) {
 		self.titleLabel.text = interview.name
 		self.descriptionLabel.text = interview.summary
