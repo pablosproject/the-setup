@@ -67,15 +67,15 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="IQN-H2-NXM" firstAttribute="top" secondItem="r7X-Pl-ne0" secondAttribute="bottom" constant="15" id="2lN-qg-8bA"/>
+                                        <constraint firstItem="IQN-H2-NXM" firstAttribute="top" secondItem="r7X-Pl-ne0" secondAttribute="bottom" constant="3" id="2lN-qg-8bA"/>
                                         <constraint firstItem="Iwl-cA-Yd8" firstAttribute="leading" secondItem="cU9-ba-sUK" secondAttribute="leading" constant="15" id="DJI-1M-Xft"/>
                                         <constraint firstItem="r7X-Pl-ne0" firstAttribute="leading" secondItem="txY-xW-CcN" secondAttribute="leading" id="Fhu-sg-Q8j"/>
                                         <constraint firstItem="txY-xW-CcN" firstAttribute="leading" secondItem="Iwl-cA-Yd8" secondAttribute="leading" id="N8H-iy-geL"/>
-                                        <constraint firstItem="r7X-Pl-ne0" firstAttribute="top" secondItem="txY-xW-CcN" secondAttribute="bottom" constant="8" id="QaF-x0-Ocr"/>
+                                        <constraint firstItem="r7X-Pl-ne0" firstAttribute="top" secondItem="txY-xW-CcN" secondAttribute="bottom" constant="3" id="QaF-x0-Ocr"/>
                                         <constraint firstAttribute="trailing" secondItem="Iwl-cA-Yd8" secondAttribute="trailing" constant="15" id="Ron-jW-qf9"/>
                                         <constraint firstItem="IQN-H2-NXM" firstAttribute="leading" secondItem="r7X-Pl-ne0" secondAttribute="leading" id="Wih-n1-zM6"/>
                                         <constraint firstItem="r7X-Pl-ne0" firstAttribute="trailing" secondItem="txY-xW-CcN" secondAttribute="trailing" id="faz-bw-f7M"/>
-                                        <constraint firstAttribute="bottom" secondItem="IQN-H2-NXM" secondAttribute="bottom" constant="30" id="gmZ-Xn-Dil"/>
+                                        <constraint firstAttribute="bottom" secondItem="IQN-H2-NXM" secondAttribute="bottom" constant="15" id="gmZ-Xn-Dil"/>
                                         <constraint firstItem="IQN-H2-NXM" firstAttribute="trailing" secondItem="r7X-Pl-ne0" secondAttribute="trailing" id="nMD-lU-Vdm"/>
                                         <constraint firstItem="Iwl-cA-Yd8" firstAttribute="top" secondItem="cU9-ba-sUK" secondAttribute="top" constant="8" id="oym-Ew-OP3"/>
                                         <constraint firstItem="txY-xW-CcN" firstAttribute="top" secondItem="Iwl-cA-Yd8" secondAttribute="bottom" constant="15" id="qKt-Oi-423"/>
@@ -98,6 +98,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="Z06-nL-bOm"/>
                     <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="2gt-Hq-blJ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </refreshControl>
                 </tableViewController>
@@ -109,7 +110,7 @@
         <scene sceneID="OyF-Gg-Fff">
             <objects>
                 <tableViewController id="YhS-MC-4Od" customClass="InterviewDetailController" customModule="TheSetup" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="zwi-oU-akE">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="zwi-oU-akE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -120,11 +121,11 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="229"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VNC-Z7-m2l" id="vVv-Nh-JV1">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="228.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="229"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TSa-zS-IHV">
-                                                    <rect key="frame" x="67" y="50" width="240" height="128"/>
+                                                    <rect key="frame" x="67" y="50" width="240" height="129"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
@@ -139,7 +140,7 @@
                                         <rect key="frame" x="0.0" y="229" width="375" height="434"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HlE-5N-Nb7" id="oX0-Tv-RTv">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="433.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="434"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="efp-f2-bIL">
@@ -149,8 +150,13 @@
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                                 </textView>
+                                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="k8P-yZ-CMR">
+                                                    <rect key="frame" x="177" y="50" width="20" height="20"/>
+                                                </activityIndicatorView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="k8P-yZ-CMR" firstAttribute="top" secondItem="oX0-Tv-RTv" secondAttribute="top" constant="50" id="3nV-2x-0RS"/>
+                                                <constraint firstItem="k8P-yZ-CMR" firstAttribute="centerX" secondItem="oX0-Tv-RTv" secondAttribute="centerX" id="3uQ-ks-Pdx"/>
                                                 <constraint firstAttribute="trailing" secondItem="efp-f2-bIL" secondAttribute="trailing" id="N1Q-QE-Eqz"/>
                                                 <constraint firstAttribute="bottom" secondItem="efp-f2-bIL" secondAttribute="bottom" id="Q5F-cg-6XB"/>
                                                 <constraint firstItem="efp-f2-bIL" firstAttribute="top" secondItem="oX0-Tv-RTv" secondAttribute="top" id="VJz-Ir-zku"/>
@@ -167,6 +173,7 @@
                         </connections>
                     </tableView>
                     <connections>
+                        <outlet property="activityView" destination="k8P-yZ-CMR" id="Kgo-GF-heS"/>
                         <outlet property="contentTextView" destination="efp-f2-bIL" id="nkn-ji-hI5"/>
                         <outlet property="interviewImage" destination="TSa-zS-IHV" id="CaI-fv-s60"/>
                     </connections>

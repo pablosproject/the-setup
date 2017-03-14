@@ -16,7 +16,9 @@ View Controllers:
     ☐ Fine design tuning
   ☐ Interview Detail
     ☐ Inteview details
-    ☐ Markdown processing --> Resizing cell
+    ✔ Markdown processing --> Resizing cell– @done(2017-03-11 22:08) @project(View Controllers)
+    ☐ Fine design tuning
+    ☐ Recognize links
   ☐ Category List
   ☐ Gear List
   ☐ About

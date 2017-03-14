@@ -17,10 +17,13 @@ class InterviewDetailController: UITableViewController, UITextViewDelegate {
 	let calculationView : UITextView = UITextView()
 	
 	@IBOutlet weak var interviewImage: UIImageView!
+	@IBOutlet weak var activityView: UIActivityIndicatorView!
 	@IBOutlet weak var contentTextView: UITextView!
 	
     override func viewDidLoad() {
         super.viewDidLoad()
+		
+		self.tableView.tableFooterView = UIView()
 		
 		self.contentTextView.delegate = self
 		self.contentTextView.alpha = 0
@@ -36,9 +39,12 @@ class InterviewDetailController: UITableViewController, UITextViewDelegate {
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
 		
+		self.activityView.startAnimating()
+		
 		if let slug = self.interview?.slug {
 			NetworkService.interviewDetail(slug: slug, completion: { APIcompleteInterview in
 				self.completeInterview = APIcompleteInterview
+				self.activityView.stopAnimating()
 				self.updateInterview()
 			})
 		}
@@ -75,7 +81,5 @@ class InterviewDetailController: UITableViewController, UITextViewDelegate {
 			
 		}
 	}
-	
-	//MARK: UITextViewDelegate
 	
 }

@@ -15,11 +15,11 @@ enum TextStyle {
     func font() -> UIFont {
         switch self {
         case .interviewListTitle:
-            return UIFont.boldSystemFont(ofSize: 25)
+            return UIFont(name: "Roboto-Bold", size: 25)!
         case .interviewListDetail:
-            return UIFont.systemFont(ofSize: 15)
+            return UIFont(name: "Roboto-Regular", size: 15)!
 		case .interviewListDate:
-             return UIFont.systemFont(ofSize: 12)
+            return UIFont(name: "Roboto-Regular", size: 12)!
         }
     }
 
