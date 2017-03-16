@@ -13,15 +13,18 @@ API Needed:
 View Controllers:
   ☐ Interview List
     ✔ Basic implementation  @done(2017-02-24 18:31) @project(View Controllers)
-    ☐ Fine design tuning
+    ✔ Fine design tuning @done(2017-03-14 22:20) @project(View Controllers)
   ☐ Interview Detail
-    ☐ Inteview details
+    ✔ Inteview details @done(2017-03-14 22:21) @project(View Controllers)
     ✔ Markdown processing --> Resizing cell– @done(2017-03-11 22:08) @project(View Controllers)
     ☐ Fine design tuning
     ☐ Recognize links
   ☐ Category List
   ☐ Gear List
   ☐ About
+
+Extra Visual Stuff:
+  ☐ Navbar purple. Hide and show (Medium app style)
 
 Extra features:
   ☐ Search@low

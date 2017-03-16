@@ -33,6 +33,7 @@
 		525E925A1E5765E300E40CD4 /* Gear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525E92521E575D7A00E40CD4 /* Gear.swift */; };
 		6580E102027D722C17B806D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6580E6074357AB2FD03453CE /* LaunchScreen.storyboard */; };
 		6580E40D0ABF1C22507500C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6580EED8788434943D8DADAD /* Main.storyboard */; };
+		6580E4893A4C831AE0C29BED /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580EECF3EB34A09BFEB78AC /* DateExtension.swift */; };
 		6580E5B530A7368527261F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6580E58432E6152422C17CA9 /* Assets.xcassets */; };
 		6580E84E828BE393C69769BB /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580E4A100A17A5EF6EE9A56 /* Style.swift */; };
 		855CF1FCCE11AA48B96F3E19 /* Pods_TheSetupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321BA37F53E947FA72178760 /* Pods_TheSetupTests.framework */; };
@@ -83,6 +84,7 @@
 		6580E58432E6152422C17CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6580EB6123D3EB68CA091586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TheSetup/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		6580ED7992CADD105900B5A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TheSetup/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		6580EECF3EB34A09BFEB78AC /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		B65CBEC1FD80EDEB48B73FFA /* Pods-TheSetupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSetupTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheSetupTests/Pods-TheSetupTests.release.xcconfig"; sourceTree = "<group>"; };
 		CCA5420CADAB69A7E9DAD5C4 /* Pods-TheSetup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSetup.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheSetup/Pods-TheSetup.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +172,7 @@
 				525E922E1E574EE700E40CD4 /* Products */,
 				1F3BEF3AF17629196448A04C /* Pods */,
 				A2D73DD231E4954DA635D236 /* Frameworks */,
+				6580EE67E0480C5E16C53CEC /* Extensions */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,6 +267,14 @@
 				525E92541E5760C400E40CD4 /* NetworkService.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		6580EE67E0480C5E16C53CEC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6580EECF3EB34A09BFEB78AC /* DateExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		6580EEFD76A6A94BF5C00F9A /* Storyboards */ = {
@@ -509,6 +520,7 @@
 				5200C4F31E60A6CE00D1CFDE /* InterviewDetailController.swift in Sources */,
 				525E92511E5758F400E40CD4 /* Interview.swift in Sources */,
 				6580E84E828BE393C69769BB /* Style.swift in Sources */,
+				6580E4893A4C831AE0C29BED /* DateExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

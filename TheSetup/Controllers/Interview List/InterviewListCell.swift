@@ -39,8 +39,7 @@ class InterviewListCell: UITableViewCell {
 		
 		if let date = interview.date {
 			let interviewDate = Date(timeIntervalSince1970: date)
-			let dateFormatter = DateFormatter()
-			dateFormatter.dateFormat = "MMMM d, yyyy"
+			let dateFormatter = Date.ts_dateFormatter()
 			dateLabel.text = "Published \(dateFormatter.string(from: interviewDate))"
 		}
 		
