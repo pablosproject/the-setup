@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "SwiftyMarkdown.h"
 
-FOUNDATION_EXPORT double SwiftyMarkdownVersionNumber;
-FOUNDATION_EXPORT const unsigned char SwiftyMarkdownVersionString[];
+FOUNDATION_EXPORT double MarkdownKitVersionNumber;
+FOUNDATION_EXPORT const unsigned char MarkdownKitVersionString[];
 

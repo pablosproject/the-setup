@@ -9,7 +9,7 @@ target 'TheSetup' do
   pod 'AlamofireObjectMapper', '~> 4.0'
   pod 'SDWebImage', '~> 4.0.0'
   pod 'APESuperHUD', '~> 1.1.2'
-  pod 'SwiftyMarkdown', '~> 0.3'
+  pod 'MarkdownKit', '~> 1.2'
 
   # Pods for TheSetup
   target 'TheSetupTests' do

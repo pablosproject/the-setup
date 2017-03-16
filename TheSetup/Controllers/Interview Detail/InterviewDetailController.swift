@@ -8,7 +8,7 @@
 
 import UIKit
 import SDWebImage
-import SwiftyMarkdown
+import MarkdownKit
 
 class InterviewDetailController: UITableViewController, UITextViewDelegate {
 
@@ -77,14 +77,16 @@ class InterviewDetailController: UITableViewController, UITextViewDelegate {
     private func updateInterview() {
         //Extract markdown string
         if let completeInterview = self.completeInterview, let markdown = completeInterview.contents {
-            let md = SwiftyMarkdown(string: markdown)
-			md.body.fontName = TextStyle.interviewBody.font().fontName
-			md.body.color = TextStyle.interviewBody.color()
+			let markdownParser = MarkdownParser(font: TextStyle.interviewBody.font())
 			
-			md.h4.fontName = TextStyle.interviewH4.font().fontName
-			md.h4.color = TextStyle.interviewH4.color()
+
+//			md.body.fontName = TextStyle.interviewBody.font().fontName
+//			md.body.color = TextStyle.interviewBody.color()
+//			
+//			md.h4.fontName = TextStyle.interviewH4.font().fontName
+//			md.h4.color = TextStyle.interviewH4.color()
 			
-            let attributedString = md.attributedString()
+            let attributedString = markdownParser.parse(markdown)
 
             self.contentTextView.attributedText = attributedString
             self.tableView.reloadData()
